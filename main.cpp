@@ -12,7 +12,8 @@ int main() // la funzione main serve come primo passo per il
 
     // inizializzazione di variabile
     int eta = 32;
-
+    const int PI = 3.14; // constant si puo' solo INIZIALIZZARE, di buona norma tutta in maiuscolo
+    const int ETA_MASSIMA = 120;
     // ha bisogno di int una variabile, senno' da errore
     std::cout << "ciao ho " << eta << " anni" << std::endl; // endl mette a capo il prossimo comando
     std::cout << "ciao ho " << eta << " anni da settembre" << std::endl;
