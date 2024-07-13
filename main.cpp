@@ -11,7 +11,9 @@ int main() // la funzione main serve come primo passo per il
     anno = 2024; // assegnazione
 
     // inizializzazione di variabile
-    int eta = 32;                                           // ha bisogno di int una variabile, senno' da errore
+    int eta = 32;
+
+    // ha bisogno di int una variabile, senno' da errore
     std::cout << "ciao ho " << eta << " anni" << std::endl; // endl mette a capo il prossimo comando
     std::cout << "ciao ho " << eta << " anni da settembre" << std::endl;
     // std::cout << "seconda stampa prova";
@@ -20,5 +22,6 @@ int main() // la funzione main serve come primo passo per il
     // mostra a console,conviene leggerlo da destra verso sinistra
     eta = 33;
     std::cout << "anche tu hai " << eta << " anni?" << std::endl;
+
     return 0; // return zero porta fuori dalla fgunzione, come se fosse un OK puoi uscire! m a deve essere intero in questo caso
 }
