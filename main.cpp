@@ -6,10 +6,14 @@ int main() // la funzione main serve come primo passo per il
 // ad esempio (2+2), int vuol dire  che deve restituire un risultato intero e le {} indicano un blocco
 
 {
-    // inizializzazione di variabile
 
-    int eta = 31; // ha bisogno di int una variabile, senno' da errore
-    std::cout << "Funzionaaa";
+    int anno;    // dichiarazione di variabile
+    anno = 2024; // assegnazione
+
+    // inizializzazione di variabile
+    int eta = 31;                                 // ha bisogno di int una variabile, senno' da errore
+    std::cout << "ciao ho 100 anni" << std::endl; // endl mette a capo il prossimo comando
+    std::cout << "ciao ho 100 anni da settembre" << std::endl;
     // std::cout << "seconda stampa prova";
     // std standard si trova dentro iostream, cout significa console out,
     // mostra a console,conviene leggerlo da destra verso sinistra
